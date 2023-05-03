@@ -1,13 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign-Up Form</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <img src="background-image.jpg" alt="image">
-</body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- ------image-container----------- -->
+    <div class="container">
+      <div class="column-left">
+        <h1>Odin</h1>
+      </div>
+
+      <div class="column-right">
+        <div class="top-card">
+          <p>
+            This is not a real online service.You know you need something like
+            this in your life to help you realize your deepest dreams.
+          </p>
+          <p>Sign up now to get started!!</p>
+          <p>You know you want to.</p>
+        </div>
+        <div class="form-card">
+          <form action="#" method="post">
+            <h2>Let's do this!!</h2>
+            <div class="first-name">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" />
+            </div>
+           
+            <div class="last-name">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" />
+            </div>
+          
+            <br>
+            <br>
+            <br>
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" />
+            </div>
+          
+            <div class="number">
+                <label for="tel">Phone Number</label>
+                <input type="tel" id="tel" name="tel" />
+            </div>
+        
+            <br>
+            <br>
+            <br>
+            <div class="password">
+                <label for="password">Password</label>
+                <input class="error"type="password" id="password" name="password" />
+                <p class="error-msg">Passwords do not match</p>
+            </div>
+         
+            <div class="confirm-password">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password id="conform-password" name="conform-password" class="error"/>
+            </div>
+         
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="bottom-card">
+                <button type="submit">Create Account</button>
+                <p>Already have an account?<a href="#">Log in</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
